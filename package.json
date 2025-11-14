@@ -1,7 +1,7 @@
 {
 	"name": "claude-ext",
 	"version": "1.0.1",
-	"description": "CLI tool to manage Claude MCP servers - toggle between active and disabled states",
+	"description": "CLI tool to manage Claude MCP servers, agents, and commands - toggle between active and disabled states",
 	"type": "module",
 	"main": "dist/index.js",
 	"bin": {
@@ -23,7 +23,9 @@
 		"cli",
 		"ai",
 		"anthropic",
-		"server-management"
+		"server-management",
+		"agents",
+		"commands"
 	],
 	"author": "Your Name",
 	"license": "MIT",

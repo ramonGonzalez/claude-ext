@@ -1,6 +1,6 @@
-import { existsSync, readFileSync, writeFileSync } from "fs";
-import { homedir } from "os";
-import { join } from "path";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
+import { homedir } from "node:os";
+import { join } from "node:path";
 import type { ClaudeConfig } from "./types.js";
 
 const CLAUDE_CONFIG_PATH = join(homedir(), ".claude.json");

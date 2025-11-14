@@ -15,3 +15,15 @@ export interface ServerToggleItem {
 	value: string;
 	checked: boolean;
 }
+
+export interface AgentToggleItem {
+	name: string;
+	value: string;
+	checked: boolean;
+}
+
+export interface CommandToggleItem {
+	name: string;
+	value: string;
+	checked: boolean;
+}
